@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Swift file that contains a class.</string>
+	<key>Summary</key>
+	<string>A Swift file that contains a class</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array/>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>text</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Name</key>
+			<string>Name</string>
+			<key>Required</key>
+			<true/>
+			<key>Identifier</key>
+			<string>productName</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>Default</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Public</string>
+				<string>Private</string>
+				<string>Internal</string>
+				<string>Open</string>
+				<string>Fileprivate</string>
+				<string>Default</string>
+			</array>
+			<key>Description</key>
+			<string>The visibility of the class to generate</string>
+			<key>Name</key>
+			<string>Access level</string>
+			<key>Required</key>
+			<false/>
+			<key>Identifier</key>
+			<string>visibility</string>
+		</dict>
+	</array>
+</dict>
+</plist>
