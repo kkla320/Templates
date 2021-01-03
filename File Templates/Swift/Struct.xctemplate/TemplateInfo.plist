@@ -7,9 +7,9 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>A Swift file that contains a enum.</string>
+	<string>A Swift file that contains a struct.</string>
 	<key>Summary</key>
-	<string>A Swift file that contains a enum</string>
+	<string>A Swift file that contains a struct</string>
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>AllowedTypes</key>
@@ -24,7 +24,7 @@
 			<key>Type</key>
 			<string>text</string>
 			<key>Description</key>
-			<string>The name of the enum to create</string>
+			<string>The name of the struct to create</string>
 			<key>Name</key>
 			<string>Name</string>
 			<key>Required</key>
@@ -46,7 +46,7 @@
 				<string>Default</string>
 			</array>
 			<key>Description</key>
-			<string>The visibility of the enum to generate</string>
+			<string>The visibility of the struct to generate</string>
 			<key>Name</key>
 			<string>Access level</string>
 			<key>Required</key>
